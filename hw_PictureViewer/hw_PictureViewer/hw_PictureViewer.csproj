@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{39FB2D66-ABCD-40EC-9292-82E7F426AB2D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>hw_PictureViewer</RootNamespace>
+    <AssemblyName>hw_PictureViewer</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aurora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aurora.Designer.cs">
+      <DependentUpon>aurora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="blackBear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="blackBear.Designer.cs">
+      <DependentUpon>blackBear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlueMagpie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlueMagpie.Designer.cs">
+      <DependentUpon>BlueMagpie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bridget.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bridget.Designer.cs">
+      <DependentUpon>bridget.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cat.Designer.cs">
+      <DependentUpon>cat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DearFriend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DearFriend.Designer.cs">
+      <DependentUpon>DearFriend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="equal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="equal.Designer.cs">
+      <DependentUpon>equal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatGif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatGif.Designer.cs">
+      <DependentUpon>CatGif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HOCCjpg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HOCCjpg.Designer.cs">
+      <DependentUpon>HOCCjpg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HongKong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HongKong.Designer.cs">
+      <DependentUpon>HongKong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mermaid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mermaid.Designer.cs">
+      <DependentUpon>Mermaid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="momo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="momo.Designer.cs">
+      <DependentUpon>momo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mountain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mountain.Designer.cs">
+      <DependentUpon>mountain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pocahontas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pocahontas.Designer.cs">
+      <DependentUpon>Pocahontas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sailormoon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sailormoon.Designer.cs">
+      <DependentUpon>sailormoon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoneTiger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoneTiger.Designer.cs">
+      <DependentUpon>StoneTiger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SunLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SunLi.Designer.cs">
+      <DependentUpon>SunLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TAIWAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TAIWAN.Designer.cs">
+      <DependentUpon>TAIWAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wedding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wedding.Designer.cs">
+      <DependentUpon>wedding.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aurora.resx">
+      <DependentUpon>aurora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="blackBear.resx">
+      <DependentUpon>blackBear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlueMagpie.resx">
+      <DependentUpon>BlueMagpie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bridget.resx">
+      <DependentUpon>bridget.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cat.resx">
+      <DependentUpon>cat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DearFriend.resx">
+      <DependentUpon>DearFriend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="equal.resx">
+      <DependentUpon>equal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatGif.resx">
+      <DependentUpon>CatGif.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HOCCjpg.resx">
+      <DependentUpon>HOCCjpg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HongKong.resx">
+      <DependentUpon>HongKong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mermaid.resx">
+      <DependentUpon>Mermaid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="momo.resx">
+      <DependentUpon>momo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mountain.resx">
+      <DependentUpon>mountain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pocahontas.resx">
+      <DependentUpon>Pocahontas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sailormoon.resx">
+      <DependentUpon>sailormoon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoneTiger.resx">
+      <DependentUpon>StoneTiger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SunLi.resx">
+      <DependentUpon>SunLi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TAIWAN.resx">
+      <DependentUpon>TAIWAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wedding.resx">
+      <DependentUpon>wedding.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\momo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SunLi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mountain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOCC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aurora.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sailormoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mermaid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bridget.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wedding.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pocahontas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueMagpie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StoneTiger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAIWAN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\equal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DearFriend.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
